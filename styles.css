@@ -1,0 +1,130 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color:  #e0e1dd;
+  
+  margin: 0;
+  padding: 5%;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.resume-preview {
+  margin-top: 30px;
+  padding: 20px;
+  background-color:   #edeeea;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  font-family: 'Georgia', serif;
+  outline: none;
+}
+
+.resume-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.name {
+  flex: 1;
+  text-align: left;
+  padding-left: 4%;
+  font-size: 2em;
+  color: #333;
+}
+
+.resume-body {
+  display: flex;
+  align-items: flex-start;
+}
+
+.vertical-line {
+  width: 3px;
+  height: 100%;
+  background-color: #007bff;
+  margin-right: 20px;
+}
+
+.resume-content {
+  flex: 1;
+}
+
+.resume-content p, .resume-content ul {
+  margin-left: 20px;
+}
+
+.resume-content h4 {
+  color: #007bff;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.resume-preview ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.resume-preview li {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
